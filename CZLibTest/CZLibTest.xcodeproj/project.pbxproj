@@ -17,6 +17,7 @@
 		3FB81D742556A3B10007C5E3 /* CZLibTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB81D732556A3B10007C5E3 /* CZLibTestTests.m */; };
 		3FB81D7F2556A3B10007C5E3 /* CZLibTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB81D7E2556A3B10007C5E3 /* CZLibTestUITests.m */; };
 		3FB81D8F2556A3D60007C5E3 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB81D8E2556A3D60007C5E3 /* TestModel.m */; };
+		3FB81DD32556DA600007C5E3 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB81DD22556DA600007C5E3 /* BaseObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		3FB81D802556A3B10007C5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB81D8D2556A3D60007C5E3 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		3FB81D8E2556A3D60007C5E3 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		3FB81DD12556DA600007C5E3 /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		3FB81DD22556DA600007C5E3 /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 			children = (
 				3FB81D8D2556A3D60007C5E3 /* TestModel.h */,
 				3FB81D8E2556A3D60007C5E3 /* TestModel.m */,
+				3FB81DD12556DA600007C5E3 /* BaseObject.h */,
+				3FB81DD22556DA600007C5E3 /* BaseObject.m */,
 			);
 			path = CZLibTest;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB81D5F2556A3AD0007C5E3 /* ViewController.m in Sources */,
+				3FB81DD32556DA600007C5E3 /* BaseObject.m in Sources */,
 				3FB81D8F2556A3D60007C5E3 /* TestModel.m in Sources */,
 				3FB81D592556A3AD0007C5E3 /* AppDelegate.m in Sources */,
 				3FB81D6A2556A3B10007C5E3 /* main.m in Sources */,
